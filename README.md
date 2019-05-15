@@ -6,7 +6,7 @@ Notes & components I prepared for reference while following the [hooks documenta
 
 >If you want to run an effect and clean it up only once (on mount and unmount), you can pass an empty array ([]) as a second argument. This tells React that your effect doesn’t depend on any values from props or state, so it never needs to re-run.
 
-- How can I measure a DOM node? [(faq)](How can I measure a DOM node?)
+- How can I measure a DOM node? [(faq)](https://reactjs.org/docs/hooks-faq.html#how-can-i-measure-a-dom-node)
 >In order to measure the position or size of a DOM node, you can use a callback ref. React will call that callback whenever the ref gets attached to a different node.
 ---
 #### Rules
